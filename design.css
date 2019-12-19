@@ -1,0 +1,67 @@
+h1,h4,.table,.center
+{
+	text-align: center;
+}
+.Right
+{
+	text-align: right;
+}
+body
+{
+	color: black ;
+	background-image : url("background.png") ;
+	font-family: Bodony ;
+}
+div#bas 
+{
+    position: absolute;
+    bottom: 0;
+}
+div#ligne
+{
+	float : left ;
+	width : 28px ;
+	background : #D3D3D3 ;
+}
+div#code
+{
+	float : center ;	
+	background : white ;
+}
+div#entete
+{
+	float : center ;
+	background : #FFF0BC ;
+	height : 120px ;
+	margin-left: -8px;
+	margin-right: -8px;
+	margin-top: -10px;
+	text-align : center ;
+}
+div#info
+{
+	float : center ;
+	background : #EDEDED ;
+	margin-left: -8px;
+	margin-right: -8px;
+}
+div#right
+{
+	float : right ;
+}
+.tab1
+{
+	margin-left : 20px;
+}
+.tab2
+{
+	margin-left : 40px;
+}
+.tab3
+{
+	margin-left : 60px;
+}
+.tab4
+{
+	margin-left : 80px;
+}

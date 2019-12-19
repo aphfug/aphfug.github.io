@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http ://www.w3.org/TR/xhtml1/DTD/xhtml-strict.dtd">
+<html>
+<head>
+	<title> Aphfug's website : python </title>
+	<meta charset= "UTF-8"/>
+	<link href="../design.css" media="screen" rel="stylesheet" />
+</head>
+<body>
+	<div id="entete">
+	<div id="right"><a href="../index.html" id = "ancre"> <img src="../53524.png" width="40"></a></div>
+	</br>
+	<h1> Jeu du chiffre </h1>
+	</div>
+	</br>
+	</br>
+	<p> Voici un Jeu où le bur est de trouver un chiffre entre 1 et 100 avec plusieurs essais où, à chaque fois, le programme dit si le chiffre est plus grand ou plus petit. </p>
+	</br>
+	<div id="ligne">
+		1  :
+		2  :
+		3  :
+		4  :
+		5  :
+		6  :
+		7  :
+		8  :
+		9  :
+		10 :
+		11 :
+		12 :
+		13 :
+		14 :
+		15 :
+		16 :
+	</div>
+	<div id="code">
+		from random import *</br>
+		</br>
+		mistery = randint(1,100)</br>
+		valeur=0</br>
+		essais=0</br>
+		</br>
+		while valeur!=mistery :</br>
+			<span class="tab1">essais=essais+1</br>
+			<span class="tab1">valeur=int(input("dis moi une valeur entre 1 et 100"))</br>
+			<span class="tab1">if valeur>mistery :</br>
+				<span class="tab2">print("plus petit")</br>
+			<span class="tab1">elif valeur<mistery :</br>
+				<span class="tab2">print("plus grand")</br>
+			<span class="tab1">elif essais == 10 :</br>
+				<span class="tab2">break</br>
+		</br>
+		print("t'as trouvé la bonne valeur")</br>
+	</div>
+	</br>
+	
+	<span class="tab3"><a href="6_jeuduchiffre.rar"><button> telecharger </button> </a>
+</body>

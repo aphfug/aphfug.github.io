@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http ://www.w3.org/TR/xhtml1/DTD/xhtml-strict.dtd">
+<html>
+<head>
+	<title> Aphfug's website : python </title>
+	<meta charset= "UTF-8"/>
+	<link href="../design.css" media="screen" rel="stylesheet" />
+</head>
+<body>
+	<div id="entete">
+	<div id="right"><a href="../index.html" id = "ancre"> <img src="../53524.png" width="40"></a></div>
+	</br>
+	<h1> Trieur de nombre paire ou impaire</h1>
+	</div>
+	</br>
+	</br>
+	<p> Voici un programme assez simple pour trier une liste de nombres générés aléatoirement en deux listes, une contenant les nombres paires, l'autre contenant les nombres impaires. </p>
+	</br>
+	<div id="ligne">
+		1  :
+		2  :
+		3  :
+		4  :
+		5  :
+		6  :
+		7  :
+		8  :
+		9  :
+		10 :
+		11 :
+		12 :
+		13 :
+		14 :
+	</div>
+	<div id="code">
+		from random import*</br>
+		</br>
+		liste = [randint(0,9) for i in range(100)]</br>
+		print(liste)</br>
+		</br>
+		pair = []</br>
+		impair = []</br>
+		for i in liste :</br>
+			<span class="tab1">if liste[i]%2 == 0 :</br>
+				<span class="tab2">pair.append(i)</br>
+			<span class="tab1">else :</br>
+				<span class="tab2">impair.append(i)</br>
+		print(pair)</br>
+		print(impair)</br>
+	</div>
+	</br>
+	
+	<span class="tab3"><a href="3_trieurnombreimpaire.rar"><button> telecharger </button> </a>
+</body>

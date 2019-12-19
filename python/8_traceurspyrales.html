@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http ://www.w3.org/TR/xhtml1/DTD/xhtml-strict.dtd">
+<html>
+<head>
+	<title> Aphfug's website : python </title>
+	<meta charset= "UTF-8"/>
+	<link href="../design.css" media="screen" rel="stylesheet" />
+</head>
+<body>
+	<div id="entete">
+	<div id="right"><a href="../index.html" id = "ancre"> <img src="../53524.png" width="40"></a></div>
+	</br>
+	<h1> Traceur de spyrales </h1>
+	</div>
+	</br>
+	</br>
+	<p> Voici un de mes meilleurs programmes qui permait de tracer plein de polygones de plus en plus grands et qui s'organisent en spyrale. On peut choisir le nombre de cotés et l'angle entre chaque polygone </p>
+	<h4> voici une image de ce que ça peut rendre (cotés : 3 | angle : 5) </h4>
+	<p class="center"> <img src="screenshot_spyrale.png" width="400"> </p>
+	</br>
+	<div id="ligne">
+		1  :
+		2  :
+		3  :
+		4  :
+		5  :
+		6  :
+		7  :
+		8  :
+		9  :
+		10 :
+		11 :
+		12 :
+		13 :
+		14 :
+		15 :
+		16 :
+		17 :
+		18 :
+		19 :
+		20 :
+		21 :
+		22 :
+		23 :
+		24 :
+		25 :
+	</div>
+	<div id="code">
+		from turtle import *</br>
+		speed(0)</br>
+		width(1)</br>
+		</br>
+		def xAgone(lgr,n) :</br>
+			<span class="tab1">for i in range(n):</br>
+				<span class="tab2">forward(lgr)</br>
+				<span class="tab2">right(360/n)</br>
+        </br>
+		def figure(n) :</br>
+			<span class="tab1">color((0,0,1))</br>
+			<span class="tab1">for i in range(n+1) :</br>
+				<span class="tab2">xAgone(i/n*900/cote, cote)</br>
+				<span class="tab2">right(angle)</br>
+				<span class="tab2">color((0+i/n,0,1-i/n/2))</br>
+		</br>
+		cote=int(input("nombre de cotés ? (au moins 3)"))</br>
+		</br>
+		if cote<3 :</br>
+			<span class="tab1">print("non! j'ai dit plus de 3")</br>
+		else :</br>
+			<span class="tab1">angle = int(input("quel angle entre chaque polygone ?"))</br>
+			<span class="tab1">figure(int(360/angle))</br>
+		</br>
+		exitonclick()</br>
+	</div>
+	</br>
+	
+	<span class="tab3"><a href="8_traceurspyrales.rar"><button> telecharger </button> </a>
+	</br>
+	<p class = "bas" > <a href = "#ancre"> <button> retour en haut de page </button> </a> </p>
+</body>
