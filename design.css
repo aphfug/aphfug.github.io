@@ -10,7 +10,7 @@ body
 {
 	color: black ;
 	background-image : url("background.png") ;
-	font-family: Bodony ;
+	font-family: sans-Serif ;
 }
 div#bas 
 {
@@ -33,6 +33,16 @@ div#entete
 	float : center ;
 	background : #FFF0BC ;
 	height : 120px ;
+	margin-left: -8px;
+	margin-right: -8px;
+	margin-top: -10px;
+	text-align : center ;
+}
+div#entete_acceuil
+{
+	float : center ;
+	background : #FFF0BC ;
+	height : 150px ;
 	margin-left: -8px;
 	margin-right: -8px;
 	margin-top: -10px;
